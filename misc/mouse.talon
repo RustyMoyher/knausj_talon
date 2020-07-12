@@ -14,9 +14,13 @@ run calibration: user.mouse_calibrate()
 	key("{modifiers}:down")
 	mouse_click(mouse_index)
 	key("{modifiers}:up")
-(dubclick | duke): 
+fit: 
+	mouse_click()
+fick: 
 	mouse_click()
 	mouse_click()
+rit: 
+	mouse_click(1)
 (tripclick | triplick): 
 	mouse_click()
 	mouse_click()
